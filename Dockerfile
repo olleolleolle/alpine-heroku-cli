@@ -5,7 +5,7 @@ RUN apk add -u --no-cache \
   git \
   postgresql-client
 
-ARG HEROKU_CLI_VERSION=7.35.0
+ARG HEROKU_CLI_VERSION=7.43.0
 RUN yarn global add heroku@${HEROKU_CLI_VERSION}
 
 LABEL version=${HEROKU_CLI_VERSION}
