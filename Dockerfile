@@ -1,4 +1,4 @@
-ARG NODE_VERSION=13.2.0-alpine
+ARG NODE_VERSION=14.10.1-alpine
 FROM node:${NODE_VERSION}
 
 RUN apk add -u --no-cache \
